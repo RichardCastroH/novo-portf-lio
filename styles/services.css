@@ -1,0 +1,50 @@
+.services {
+    background-color: #0D0E11;
+    display: flex;
+    padding: 88px 120px 120px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    align-self: stretch;
+
+}
+
+.container-services {
+    display: flex;
+    gap: 24px;
+}
+
+.web-aplicativo {
+    display: flex;
+    width: 280px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 12px;
+    border: 2px solid #16181D;
+}
+
+.device {
+    columns: #BB72E9;
+}
+
+.title-webs {
+    font-family: Asap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #E2E4E9;
+}
+
+.first-p {
+    font-family: "Maven Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #C0C4CE;
+}

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-red:#E3646E;
+    --main-purple:#BB72E9;
+    --main-blue:#3996DB;
+    --main-green:#82BC4F;
+    --main-yellow:#EABD5F;
+
+    --base-gray100:#0D0E11;
+    --base-gray200:#16181D;
+    --base-gray300:#292C34;
+    --base-gray400:#878EA1;
+    --base-gray500:#C0C4CE;
+    --base-gray600:#E2E4E9;
+}
+
+body {
+    background-color: #16181D;
+}

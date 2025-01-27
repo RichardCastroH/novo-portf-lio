@@ -1,0 +1,7 @@
+.grid-template-area {
+    display: grid;
+    grid-template-areas: 
+    "travelgram technews pagina-de-receita"
+    "zingen refund pagina-de-turismo";
+    gap: 24px;
+}

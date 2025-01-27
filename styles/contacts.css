@@ -1,0 +1,94 @@
+.contacts {
+    display: flex;
+    padding: 128px 120px 200px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+
+    background: url(/assets/backgrounds/Background_Contacts.png) lightgray 50% / cover no-repeat;
+}
+
+.contacts h1 {
+    font-family: Asap;
+    color: #E2E4E9;
+}
+
+.contacts p {
+    font-family: "Maven Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--base-gray500);
+}
+
+.title-contacts {
+    font-family: Inconsolata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--main-purple);
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkedin {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.conteudo {
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    justify-content:space-between;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 8px;
+    background-color:var(--base-gray300);
+}
+
+.conteudo p {
+font-family: "Maven Pro";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+
+flex: 1 0 0;
+}
+
+.icone-linkedin {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.link-para-redes {
+    text-decoration: none;
+    font-family: "Maven Pro";
+    color:var(--base-gray500);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.seta-vertical {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}

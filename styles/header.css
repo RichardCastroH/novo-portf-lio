@@ -1,0 +1,217 @@
+.headerprimary {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 120px 163px 57px 163px;
+
+    background: url(/assets/backgrounds/Background_Intro.png) lightgray 50% / cover no-repeat;
+    
+
+    font-family: "asap" , serif;
+    color: #C0C4CE;
+}
+
+.profile-picture {
+    margin-bottom: 56px;
+    width: 183px;
+    height: 183px;
+    flex-shrink: 0;
+    border: solid 2px #E3646E;
+    border-radius: 9999px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.paragraph-two {
+    margin-top: 20px;
+    font-family: "Maven Pro";
+    color: #878EA1;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.itens {
+    margin-top: 80px;
+    margin-bottom: 94px;
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    list-style: none;
+    border-radius: 999px;
+
+    background: #292C34;
+}
+
+.seta-para-baixo{
+    color: #878EA1;
+    margin-bottom: 57px;
+}
+
+.headersecondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16181D;
+    padding: 72px 120px 144px 120px;
+}
+
+.my-work {
+    font-family: Asap;
+    color: #E3646E;
+    margin-top: 72px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: Asap;
+    color: #E2E4E9;
+    margin-bottom: 56px;
+}
+
+.travelgram {
+    grid-area: travelgram;
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-travelgram {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.technews {
+    grid-area: technews;
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-tech {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.pagina-de-receita {
+    grid-area: pagina-de-receita;
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-receita {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.zingen{
+    grid-area: zingen;
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-zingen {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.refund {
+    grid-area: refund;
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-refund {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.pagina-de-turismo {
+    display: flex;
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #292C34;
+}
+
+.imagem-turismo {
+    width: 306px;
+    height: 156px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.titulo-travelgram {
+    margin-top: 20px;
+    font-family: Asap;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color:#E2E4E9;
+    
+}
+
+.paragrafo-travelgram {
+    font-family: "Maven Pro";
+    color: #C0C4CE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
