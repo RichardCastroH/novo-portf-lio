@@ -5,3 +5,8 @@
     "zingen refund pagina-de-turismo";
     gap: 24px;
 }
+
+.device {
+    background-color: yellow;
+    border-radius: 5px;
+}

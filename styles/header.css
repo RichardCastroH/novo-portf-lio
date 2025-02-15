@@ -51,6 +51,10 @@ ul {
     background: #292C34;
 }
 
+.itens:hover {
+    border: 1px solid white;
+}
+
 .seta-para-baixo{
     color: #878EA1;
     margin-bottom: 57px;
